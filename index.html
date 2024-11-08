@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samet Sarı Portfolyo</title>
+    <link rel="stylesheet" href="real.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="iletisim.css">
+</head>
+<body class="mainpage">
+    
+    <section class="anasayfasection">
+        <h2>SAMET SARI</h2>
+        <p>Bilgisayar Mühendisliği Öğrencisi</p>
+    
+        <div class="anasayfakartları">
+            <div class="anasayfakart">
+                <img src="image/pcbasında.jpg" alt="Proje 1">
+                <div class="anasayfacardiceriği">
+                    <h3>MERHABALAR, PORTFOLYO SİTEME HOŞ GELDİNİZ!</h3>
+                    <p>Benim adım Samet Sarı. Sitemde bana ve yaptığım projelere ait bilgiler bulunmakta. İncelemekten çekinmeyin...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="biography-section">
+            <a href="index.html" class="box">
+                <div class="box__side box__side--front">
+                    <img src="image/anasayfa.png" alt="Resim">
+                </div>
+                <div class="box__side box__side--back">
+                    <div class="text-box">
+                        <p>Portfolyo siteme bakarken zamanın nasıl geçtiğini unutmayın.</p>
+                        <h1 id="clock"></h1> 
+                    </div>
+                </div>
+            </a>
+            <a href="about.html" class="box">
+                <div class="box__side box__side--front">
+                    <img src="image/hakkımda.png" alt="Resim">
+                </div>
+                <div class="box__side box__side--back">
+                    <div class="text-box">
+                        <img src="image/güzel.jpg" alt="Resim">
+                    </div>
+                </div>
+            </a>
+            <a href="#iletisim" class="box"> 
+                <div class="box__side box__side--front">
+                    <img src="image/iletişim.png" alt="Resim">
+                </div>
+                <div class="box__side box__side--back">
+                    <div class="text-box">
+                        <img src="image/araba.jpg" alt="Resim">
+                    </div>
+                </div>
+            </a>
+            <a href="projects.html" class="box">
+                <div class="box__side box__side--front">
+                    <img src="image/projelerim.png" alt="Resim">
+                </div>
+                <div class="box__side box__side--back">
+                    <img src="image/renkli.jpg" alt="Resim">
+                </div>
+            </a>
+        </section>
+    </main>
+    
+    <div id="iletisim" class="iletisimdiv">
+        <h2>İletişim</h2>
+        <p>Bizimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz.</p>
+    
+        <div class="iletisimformu">
+            <div class="iletisimkart">
+                <form id="iletisimFormu" onsubmit="return validateForm()">
+                    <h1 id="clock"></h1>
+                    <input type="text" id="name" name="name" placeholder="İsim">
+                    <input type="email" id="email" name="email" placeholder="E-posta">
+                    <textarea id="message" name="message" rows="4" placeholder="Mesajınız"></textarea>
+                    <button type="submit">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>    
+    
+    <footer>
+        <div class="footeranasablon">
+            <div class="footericon">
+                <img src="image/192x192me.png" alt="logo" class="footer-logo"> 
+                <p class="footer-text">Samet Sarı</p>
+            </div>
+        </div>
+        <div class="footeranasablon">
+            <h4>Hakkında</h4>
+            <p>Bu web sitesi, yazılım geliştirme ve projeler hakkında bilgiler sunar.</p>
+        </div>
+        <div class="footeranasablon copyright">
+            <p>&copy; 2024 Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    
+    
+
+    <script src="clock.js"></script>
+    <script src="iletişim.js"></script>
+</body>
+</html>

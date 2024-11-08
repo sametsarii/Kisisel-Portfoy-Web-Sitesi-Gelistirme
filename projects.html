@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerim</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="real.css">
+</head>
+<body>
+
+    <nav class="anamenu">
+        <ul class="anamenuul">
+            <li class="anamenuli"><a href="index.html">Anasayfa</a></li>
+            <li class="anamenuli"><a href="about.html">Hakkımda</a></li>
+            <li class="anamenuli"><a href="projects.html">Projelerim</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header class="anasayfasection">
+            <h2>Projelerim</h2>
+            <p>Bu bölümde gerçekleştirdiğim projeleri görebilir, ilginizi çeken projeleri inceleyebilirsiniz.</p>
+        </header>
+
+        <div class="filter-buttons">
+            <button onclick="filterProjects('all')">Tüm Projeler</button>
+            <button onclick="filterProjects('latest')">En Son Projeler</button>
+            <button onclick="filterProjects('popular')">En Beğenilen Projeler</button>
+        </div>
+
+        <div id="projects-container" class="project-grid">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footeranasablon">
+            <div class="footericon">
+                <img src="image/192x192me.png" alt="logo" class="footer-logo"> 
+                <p class="footer-text">Samet Sarı</p>
+            </div>
+        </div>
+        <div class="footeranasablon">
+            <h4>Hakkında</h4>
+            <p>Bu web sitesi, yazılım geliştirme ve projeler hakkında bilgiler sunar.</p>
+        </div>
+        <div class="footeranasablon copyright">
+            <p>&copy; 2024 Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="sırala.js"></script>
+</body>
+</html>

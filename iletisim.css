@@ -1,0 +1,89 @@
+.iletisimdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px; 
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.iletisimdiv h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #1abc9c;
+}
+
+.iletisimdiv p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #ddd;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iletisimformu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%; 
+    max-width: 600px; 
+    margin: 20px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.iletisimkart {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    width: 100%;
+}
+
+.iletisimkart:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.iletisimkart input[type="text"],
+.iletisimkart input[type="email"],
+.iletisimkart textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.iletisimkart button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.iletisimkart button:hover {
+    background-color: #16a085;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
